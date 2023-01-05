@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 /* header and navigation styles */
@@ -9,7 +9,7 @@
     background-color: aliceblue;
     background-image: url(/images/header_bg.png);
     background-position: bottom right;
-    
+
     background-repeat: no-repeat;
     margin-left: 10px;
 }
@@ -85,6 +85,7 @@ nav li a:hover {
     width: 1000px;
 }
 
+
 .banner-sub-title {
     font-weight: 600;
     font-size: 45px;
@@ -101,4 +102,58 @@ nav li a:hover {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 30px;
+    color: #757575;
+}
+
+/* section-styles:about */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    margin-top: 130px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 350px;
+    padding: 130px 150px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.section-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    width: 782px;
+    height: 60px;
+}
+
+
+.info-title{
+    text-align: center;
+    color: #757575;
+    font-weight: 400;
+font-size: 20px;
+}
+.info-description{
+    font-weight: 700;
+font-size: 20px;
+color: #474747;
+
 }
