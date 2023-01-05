@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation styles */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-prime {
+    color: rgb(17, 0, 253);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: rgb(17, 0, 253);
+}
+
+.primary-btn {
+    color: white;
+    background-color:rgb(17, 0, 253);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700px;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+}
+.align-text{
+    align-items: center;
+}
+/* banner styles */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+#prova{
+    width: 1000px;
+}
